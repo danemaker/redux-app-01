@@ -1,1 +1,22 @@
-<h1>Redux 01 works</h1>
+<div class="row text-center">
+  <div class="col">
+    <h3>Contador</h3>
+    <h4>{{ contador }}</h4>
+  </div>
+</div>
+
+
+<div class="row text-center">
+    <div class="col">
+        <button (click)="incrementar()"class="btn btn-primary">Incrementar</button>
+        <button (click)="decrementar()"class="btn btn-info">Decrementar</button>
+    </div>
+  </div>
+
+  <hr>
+  
+  <div class="row text-center">
+    <div class="col">
+        <app-hijo></app-hijo>
+    </div>
+  </div>
